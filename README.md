@@ -3,7 +3,7 @@
 
 - Combines Kedro and Predect
 - Works with Oliverto
-- ✨Makes ETL Magic Happen✨
+- Makes ETL Magic Happen
 
 ## Requirements
 
