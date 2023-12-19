@@ -5,6 +5,8 @@ setup(
   version = '0.2.1', 
   license='MIT',     
   description = 'Prefect and Kedro package for Oliverto deployments',   
+  long_description=open('README.md').read(),
+  long_description_content_type='text/markdown',
   author = 'OTH JG',                
   author_email = 'jgerstein@olivetreeholdings.com',      
   url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii',   
