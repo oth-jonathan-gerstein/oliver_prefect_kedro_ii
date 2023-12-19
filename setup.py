@@ -8,11 +8,14 @@ setup(
   author = 'OTH JG',                
   author_email = 'jgerstein@olivetreeholdings.com',      
   url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii',   
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_1.tar.gz',    # I explain this later on
   keywords = ['KEDRO', 'PREFECT', 'ETL', 'OLIVERTO'],   
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[            
+          'kedro',
+          'click',
+          'pendulum',
+          'pluggy',
+          'kedro',
       ],
   classifiers=[
     'Development Status :: 4 - Beta',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
