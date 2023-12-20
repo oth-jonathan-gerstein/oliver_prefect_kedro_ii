@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'oliver_prefect_kedro_ii',         
   packages = ['oliver_prefect_kedro_ii'], 
-  version = '0.2.1', 
+  version = '0.2.2', 
   license='MIT',     
   description = 'Prefect and Kedro package for Oliverto deployments',   
   long_description=open('README.md').read(),
