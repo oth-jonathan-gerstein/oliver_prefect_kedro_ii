@@ -340,10 +340,10 @@ def create_prefect_schedule(
             "day_or": day_or,
             "timezone": timezone,
         }
-        schedule = CronSchedule(
-            **{k: v for k, v in cron_schedule.items() if v is not None},
-            timezone=timezone # Ensure to pass the timezone explicitly
-        )
+        schedule = CronSchedule(cron=cron_string,day_or=day_or,timezone=timezone)
+        
+        
+        
 
     if rrule_string is not None:
         # a timezone in the `rrule_string` gets ignored by the RRuleSchedule constructor
