@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'oliver_prefect_kedro_ii',         
   packages = ['oliver_prefect_kedro_ii'], 
-  version = '0.2.3', 
+  version = '0.2.4', 
   license='MIT',     
   description = 'Prefect and Kedro package for Oliverto deployments',   
   long_description=open('README.md').read(),
@@ -10,7 +10,7 @@ setup(
   author = 'OTH JG',                
   author_email = 'jgerstein@olivetreeholdings.com',      
   url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii',   
-  download_url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_3.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_4.tar.gz',    # I explain this later on
   keywords = ['KEDRO', 'PREFECT', 'ETL', 'OLIVERTO'],   
   install_requires=[            
           'kedro',

@@ -335,13 +335,9 @@ def create_prefect_schedule(
         )
 
     if cron_string is not None:
-        cron_schedule = {
-            "cron": cron_string,
-            "day_or": day_or,
-            "timezone": timezone,
-        }
-        schedule = CronSchedule(cron=cron_string,timezone="America/New_York")
-        
+        print(f'Cron string: {cron_string}')
+        print(f'timezone: {timezone}')
+        schedule = CronSchedule(cron=cron_string,timezone=timezone)
         
         
 
