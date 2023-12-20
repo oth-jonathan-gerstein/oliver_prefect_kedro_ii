@@ -340,7 +340,7 @@ def create_prefect_schedule(
             "day_or": day_or,
             "timezone": timezone,
         }
-        schedule = CronSchedule(cron=cron_string,day_or=day_or,timezone=timezone)
+        schedule = CronSchedule(cron=cron_string,timezone="America/New_York")
         
         
         
