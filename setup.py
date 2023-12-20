@@ -10,7 +10,7 @@ setup(
   author = 'OTH JG',                
   author_email = 'jgerstein@olivetreeholdings.com',      
   url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii',   
-  download_url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_2.tar.gz',    # I explain this later on
   keywords = ['KEDRO', 'PREFECT', 'ETL', 'OLIVERTO'],   
   install_requires=[            
           'kedro',
