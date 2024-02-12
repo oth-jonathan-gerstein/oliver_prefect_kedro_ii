@@ -1,7 +1,7 @@
 # OTH Kedro Prefect Library
 
 
-- Combines Kedro and Predect
+- Combines Kedro and Prefect
 - Works with Oliverto
 - Makes ETL Magic Happen
 
